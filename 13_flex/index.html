@@ -9,10 +9,35 @@
   </head>
   <body>
     <!-- Flex and alignment -->
+    <div class="flex items-center justify-between h-72 w-full bg-gray-200 ">
+      <div class="p-10 border border-blue-300 bg-blue-200">01</div>
+      <div class="p-10 border border-blue-300 bg-blue-200">02</div>
+      <div class="p-10 border border-blue-300 bg-blue-200">03</div>
+      <div class="p-10 border border-blue-300 bg-blue-200">04</div>
+    </div>
+
+    <br>
 
     <!-- Flex Column, Gap and Order -->
+    <div class="flex flex-col gap-4 items-center justify-between h-72 w-full bg-gray-200 ">
+      <div class="order-3 p-10 border border-blue-300 bg-blue-200">01</div>
+      <div class="order-2 p-10 border border-blue-300 bg-blue-200">02</div>
+      <div class="order-4 p-10 border border-blue-300 bg-blue-200">03</div>
+      <div class="order-1 p-10 border border-blue-300 bg-blue-200">04</div>
+    </div>
+
+    <br><br><br><br><br><br><br><br>
 
     <!-- Grow and shrink -->
+    <div class="flex w-full bg-gray-200 ">
+      <div class="flex-initial w-64 p-10 border border-blue-300 bg-blue-200">01</div>
+      <div class="flex-none w-64 p-10 border border-blue-300 bg-blue-200">02</div>
+      <div class="flex-auto w-64 p-10 border border-blue-300 bg-blue-200">03</div>
+      <div class="flex-1 w-64 p-10 border border-blue-300 bg-blue-200">04</div>
+      <div class="p-10 border border-blue-300 bg-blue-200">05</div>
+      <div class="p-10 border border-blue-300 bg-blue-200">06</div>
+      <div class="p-10 border border-blue-300 bg-blue-200">07</div>
+    </div>
   </body>
 </html>
 
@@ -26,11 +51,11 @@
     -->
 
 <!-- 
-      items-start	align-items: flex-start;
-      items-end	align-items: flex-end;
-      items-center	align-items: center;
-      items-baseline	align-items: baseline;
-      items-stretch	align-items: stretch;
+      items-start	        align-items: flex-start;
+      items-end	          align-items: flex-end;
+      items-center	      align-items: center;
+      items-baseline	    align-items: baseline;
+      items-stretch	      align-items: stretch;
      -->
 
 <!-- Flex Direction
